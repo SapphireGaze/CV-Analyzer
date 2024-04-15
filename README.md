@@ -4,7 +4,8 @@ A simple CV analyzer using the [facebook/bart-large-mnli](https://huggingface.co
 
 ## Prerequisites
 
-- Linux/Unix based systems
+- Linux/Unix based systems with at least 8GB of RAM (ML models are very memory intensive!!)
+- Git
 - Python3
 - A CV file to analyze
 
@@ -18,7 +19,7 @@ cd CV-Analyzer
 python3 -m venv cv-analyzer
 ```
 
-Activate the venv and install the dependencies:
+Activate the venv and install the dependencies (this may take a while):
 
 ```
 source cv-analyzer/bin/activate
