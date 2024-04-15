@@ -4,8 +4,9 @@ A simple CV analyzer using the [facebook/bart-large-mnli](https://huggingface.co
 
 ## Prerequisites
 
-Linux/Unix based systems  
-Python3
+- Linux/Unix based systems
+- Python3
+- A CV file to analyze
 
 ## Installation
 
