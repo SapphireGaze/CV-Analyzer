@@ -7,7 +7,7 @@ A simple CV analyzer using the [facebook/bart-large-mnli](https://huggingface.co
 - Linux/Unix based systems with at least 8GB of RAM (ML models are very memory intensive!!)
 - Git
 - Python3
-- A CV file to analyze
+- A CV file in PDF format to analyze
 
 ## Installation
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 Run the CLI based program by running:
 
 ```
-python3 main.py path/to/cv.pdf "Backend Intern"
+python3 main.py /path/to/cv.pdf "Backend Intern"
 ```
 
 You can view program argument requirements by running:
